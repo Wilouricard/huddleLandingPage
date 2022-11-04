@@ -4,7 +4,7 @@ export default function Body() {
   return (
     <main className="lg:flex lg:gap-6">
       <div className="">
-        <img src="images\logo.svg" alt="" className="w-36 m-10 absolute lg:w-44 lg:mx-20 lg:mt-14" />
+        <img src="public\images\logo.svg" alt="" className="w-36 m-10 absolute lg:w-44 lg:mx-20 lg:mt-14" />
       </div>
       <div className="flex flex-col items-center lg:w-1/2">
         <img
@@ -13,8 +13,8 @@ export default function Body() {
           className="absolute pt-32 w-4/5 lg:pt-40 lg:relative lg:z-10 lg:ml-20 lg:w-full"
         />
       </div>
-      <img src="images\bg-mobile.svg" alt="" className="w-full lg:w-1 lg:h-1" />
-      <img src="images\bg-desktop.svg" alt="" className="w-1 h-1 lg:w-auto lg:h-full lg:absolute lg:z-0" />
+      <img src="public\images\bg-mobile.svg" alt="" className="w-full lg:w-1 lg:h-1" />
+      <img src="public\images\bg-desktop.svg" alt="" className="w-1 h-1 lg:w-auto lg:h-full lg:absolute lg:z-0" />
       <div className="lg:w-1/2">
         <div className="flex flex-col text-center mx-10 gap-6 lg:relative lg:pt-52 lg:w-[600px] lg:text-start lg:gap-8">
           <h1 className="text-white text-3xl font-semibold lg:text-5xl">
